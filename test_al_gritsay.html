@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+    <!--[if IE]>
+        <script>
+            document.createElement('header');
+            document.createElement('nav');
+            document.createElement('section');
+            document.createElement('article');
+            document.createElement('aside');
+            document.createElement('footer');
+        </script>
+    <![endif]-->
+    <link rel="stylesheet" href="./sources/css/bootstrap.css">
+    <link rel="stylesheet" href="./sources/css/test_al_gritsay.css">
+</head>
+<body>
+    <div class="container main-container">
+        <!--header-->
+        <header class="main-tabs block">
+            <nav>
+                <ul>
+                    <li>
+                        <a class="header-nav-tab href="1">
+                            <span class="entypo-home"></span><span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header-nav-tab href="2">
+                            <span class="entypo-mail"></span><span>Messages</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="header-nav-tab href="3">
+                            <span class="entypo-users"></span><span>People</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="profile-block">
+                <div class="profile">
+                    <p>Profile</p>
+                    <ul>
+                        <li>All users</li>
+                        <li>Verified</li>
+                        <li>Banner</li>
+                        <li>Deleted</li>
+                    </ul>
+                </div>
+                <div class="log">
+                    <a href="#">Log out</a>
+                </div>
+            </div>
+        </header>
+        <!-- left menu-->
+        <div class="row justify-content-sm-end">
+            <div class="left-block col-lg-2 col-md-3 col-sm-2">
+                <div class="left-container-nav block">
+                    <div class="left-nav">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="entypo-globe"></span><span>Main</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="entypo-user"></span><span>Account</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="entypo-download"></span><span>Media</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="entypo-suitcase"></span><span>Wallet</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="entypo-heart"></span><span>Favorite</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="entypo-cog"></span><span>Settings</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main-block col-lg-7 col-md-9 col-sm-10">
+                <div class="block">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="#">Home</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="#">Library</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">Data</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="block">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" id="product-tab" data-toggle="tab" href="#product" role="tab" aria-controls="product" aria-selected="false">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="about-tab" data-toggle="tab" href="#about" role="tab" aria-controls="about" aria-selected="false">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <p></p>
+                        </div>
+                        <div class="tab-pane fade show active" id="product" role="tabpanel" aria-labelledby="product-tab">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <form action="" method="post">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text entypo-right-open-mini" id="basic-addon1"></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Product name" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text entypo-right-open-mini" id="basic-addon1"></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Sertificate" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text entypo-right-open-mini" id="basic-addon1"></span>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="Country" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                        <div class="dropdown">
+                                            <button class="btn-main btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Diamond form</button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" href="#">Headrt</a>
+                                                <a class="dropdown-item" href="#">Calf</a>
+                                                <a class="dropdown-item" href="#">Oval</a>
+                                            </div>
+                                        </div>
+                                        <div class="row product-quality-check">
+                                            <div class="col-6">
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                                    <label class="form-check-label" for="inlineRadio1">Very Slight</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                                    <label class="form-check-label" for="inlineRadio2">Medium</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                                    <label class="form-check-label" for="inlineRadio3">Strong</label>
+                                                </div>
+                                                <div class="form-check form-check-inline">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option4">
+                                                    <label class="form-check-label" for="inlineRadio4">Very Strong</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row product-post center-xs">
+                                            <div class="col-6">
+                                                <input type="submit" class="btn-main archive" value="Archive">
+                                            </div>
+                                            <div class="col-6">
+                                                <input type="submit" class="btn-main send" value="Send">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-md-6 col-sm-12 load-image-wrapp text-center">
+                                    <div class="load-image">
+                                        <!-- 0 -->
+                                        <div class="loader" title="0">
+                                          <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                           width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+                                          <path opacity="0.2" fill="#000" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946
+                                            s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634
+                                            c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"/>
+                                          <path fill="#000" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0
+                                            C22.32,8.481,24.301,9.057,26.013,10.047z">
+                                            <animateTransform attributeType="xml"
+                                              attributeName="transform"
+                                              type="rotate"
+                                              from="0 20 20"
+                                              to="360 20 20"
+                                              dur="0.5s"
+                                              repeatCount="indefinite"/>
+                                            </path>
+                                          </svg>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn-main">Load image</button>
+                                </div>
+                            </div>
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="./sources/img/carousel1.jpg" alt="First slide">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p>Round diamond</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="./sources/img/carousel2.jpeg" alt="Second slide">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p>Emerald diamond</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="./sources/img/carousel3.jpg" alt="Third slide">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p>Kite diamond</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="./sources/img/carousel4.jpg" alt="Third slide">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p>Rose diamond</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <div class="row product-pagination justify-content-sm-center">
+                            <nav aria-label="Page navigation example">
+                                <ul class="pagination">
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&laquo;</span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">1</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">2</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">3</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">4</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">5</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">6</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">7</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">8</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#">9</a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&raquo;</span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            </div>
+                        </div>
+                      <div class="tab-pane fade" id="about" role="tabpanel" aria-labelledby="about-tab">
+                          <p></p>
+                      </div>
+                      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                          <p></p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-block col-lg-3 col-md-9 col-sm-10">
+                <aside class="blog-posts">
+                    <img src="./sources/img/carousel1.jpg" alt="blog info">
+                    <div class="blog-panel">
+                        <span class="entypo-heart"></span>
+                        <span class="entypo-bookmark"></span>
+                        <span class="entypo-dot-3"></span>
+                    </div>
+                </aside>
+                <aside class="blog-posts">
+                    <img src="./sources/img/carousel1.jpg" alt="blog info">
+                    <div class="blog-panel">
+                        <span class="entypo-heart"></span>
+                        <span class="entypo-bookmark"></span>
+                        <span class="entypo-dot-3"></span>
+                    </div>
+                </aside>
+                <aside class="blog-posts">
+                    <img src="./sources/img/carousel1.jpg" alt="blog info">
+                    <div class="blog-panel">
+                        <span class="entypo-heart"></span>
+                        <span class="entypo-bookmark"></span>
+                        <span class="entypo-dot-3"></span>
+                    </div>
+                </aside>
+            </div>
+    </div>
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./sources/js/bootstrap.js"></script>
+</body>
+</html>
